@@ -1,0 +1,84 @@
+.UserForm {
+  width: 90%;
+  min-height: 5rem;
+  max-width: 58rem;
+  padding: 1rem;
+  margin: 0 auto;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.5);
+  display: flex;
+  border-radius: 5px;
+  flex-direction: column;
+  align-items: center;
+  text-shadow: 1px 1px 3px white;
+  gap: 0.5rem;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: rgb(165, 214, 241);
+}
+.form input,
+.form textarea,
+.form textarea:focus {
+  outline: none;
+}
+.name-email-container,
+.role-date-container,
+.text-area-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+.name-email-container > *,
+.role-date-container > * {
+  width: 100%;
+  max-width: 15rem;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.text-area-container > textarea {
+  width: 90%;
+  max-width: 40rem;
+  border-radius: 0.5rem;
+  padding:0.5rem;
+}
+.submit-button-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.submit-button {
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 0.5rem 0.8rem;
+}
+@media screen and (max-width: 768px) {
+  .name-email-container,
+  .role-date-container {
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+  }
+  .name-email-container > *,
+  .role-date-container > * {
+    width: 90%;
+    max-width: none;
+  }
+  .submit-button-container {
+    justify-content: center;
+  }
+  .submit-button {
+    width: 90%;
+    padding: 0.5rem;
+  }
+}

@@ -1,0 +1,40 @@
+.LoginForm{
+    width: 90%;
+    max-width:30rem;
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.5);
+    min-height: 10rem;
+    gap:1rem;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+    width:100%;
+}
+.form input{
+    border-radius: 0.5rem;
+    outline: none;
+    padding:1rem;
+    width:75%;
+}
+.form button{
+    background-color: rgb(139, 184, 252);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color:white;
+    border:none;
+    box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.5);
+}

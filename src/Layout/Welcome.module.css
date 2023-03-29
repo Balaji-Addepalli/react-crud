@@ -1,0 +1,9 @@
+.heading-container{
+    height:5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    font-size:2rem
+}
